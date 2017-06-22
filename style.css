@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  width: 970px;
+}
+
+header > img {
+  width: 100px;
+  height: 100px;
+}
+
+header > h1 {
+  font-size: 25pt;
+  font-family: sans-serif;
+  display: inline;
+}
+
+header > h1 > span {
+  color: purple;
+}
+
+header > h2 {
+  color: white;
+  padding: 10px;
+  background: linear-gradient(#2e6ca1, #5283ac, #2e6ca1); /* Standard syntax */
+}
+
+.left-main {
+  width: 15%;
+  display: inline-block;
+  vertical-align: top;
+  padding-bottom: 20px;
+  margin-left: 10px;
+}
+
+.left-main h3 {
+  font-weight: bold;
+}
+.left-main h3 span {
+  color: red;
+}
+
+.ad {
+  background-image: url(images/ad_background.png);
+  color: white;
+  width: 200px;;
+  height: 300px;
+}
+
+.ad h2 {
+  padding: 10px;
+  width: 80%;
+  margin: auto;
+}
+.ad > img {
+  height: 150px;
+  width: 100px;
+  display: block;
+  margin: auto;
+  padding-bottom: 20px;
+}
+
+.ad > button {
+  color: white;
+  width: 80%;
+  margin-left: 20px;
+  vertical-align: bottom;
+  background: linear-gradient(#49cadf, #00c1df,#49cadf )
+
+}
+
+.right-main {
+  width: 60%;
+  display: inline-block;
+  margin-left: 50px;
+}
+
+.right-main img {
+  width: 300px;
+  margin: auto;
+}
+
+#resources {
+  background-color: #ee8600;
+  width: 100%;
+}
+
+#watch-video {
+  background-color: #3876aa;
+}
+
+.left-main button {
+  padding: 10px;
+}
