@@ -76,6 +76,7 @@ header > h2 {
   width: 60%;
   display: inline-block;
   margin-left: 50px;
+  padding-left: 50px;
 }
 
 .right-main img {
@@ -94,4 +95,29 @@ header > h2 {
 
 .left-main button {
   padding: 10px;
+}
+
+#right-top img {
+  width: 20px;
+  height: 20px;
+}
+
+.contact {
+  font-size: 10pt;
+  display: inline-block;
+  width: 200px;
+  height: 50px;
+  margin-left: 80%;
+
+}
+
+.contact img {
+  display: inline-block;
+}
+
+.contact span {
+  font-size: 25pt;
+  color: #00bfdf;
+  font-weight: 600;
+  margin: 0;
 }
